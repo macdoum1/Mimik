@@ -1,0 +1,16 @@
+PODS:
+  - Mimik (0.1.0)
+
+DEPENDENCIES:
+  - Mimik (from `../`)
+
+EXTERNAL SOURCES:
+  Mimik:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Mimik: d23b848144fa74783df81129b43448eb78538d5f
+
+PODFILE CHECKSUM: 8191bb561ff5465763a1c47097fad81d1275fd06
+
+COCOAPODS: 1.5.3

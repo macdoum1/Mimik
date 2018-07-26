@@ -1,0 +1,5 @@
+use_frameworks!
+
+target 'Mimik_Tests' do
+  pod 'Mimik', :path => '../'
+end

@@ -1,0 +1,6 @@
+framework module Mimik {
+  umbrella header "Mimik-umbrella.h"
+
+  export *
+  module * { export * }
+}
