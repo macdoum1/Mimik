@@ -10,7 +10,7 @@ language: swift
 # - gem install cocoapods # Since Travis is not always on latest version
 # - pod install --project-directory=Example
 script:
-- set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/Mimik.xcworkspace -scheme Mimik_Tests -sdk iphonesimulator11.3 -destination 'platform=iOS Simulator,name=iPhone X,OS=11.3' ONLY_ACTIVE_ARCH=NO | xcpretty
+- xcodebuild test -enableCodeCoverage YES -workspace Example/Mimik.xcworkspace -scheme Mimik_Tests -sdk iphonesimulator11.3 -destination 'platform=iOS Simulator,name=iPhone X,OS=11.3'
 - pod lib lint
 after_success:
 - bash <(curl -s https://codecov.io/bash)
