@@ -1,5 +1,6 @@
 # Mimik
 [![Build Status](https://travis-ci.org/macdoum1/Mimik.svg?branch=master)](https://travis-ci.org/macdoum1/Mimik)
+[![codecov](https://codecov.io/gh/macdoum1/Mimik/branch/master/graph/badge.svg)](https://codecov.io/gh/macdoum1/Mimik)
 
 Kotlin-like function literals in Swift
 
