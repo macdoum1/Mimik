@@ -13,6 +13,7 @@
 		607F80B2681ED7345B07C03212629F6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		A477537213F8D8462C40EFB2C95E1AD7 /* Pods-Mimik_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DE92335BF50FB533C2654B0345E768 /* Pods-Mimik_Tests-dummy.m */; };
 		D02D8C6365A595E768F85C0D38E86D0F /* Mimik-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B20A0A0314D06B9C5E328C899CB39563 /* Mimik-dummy.m */; };
+		D827ED46210B7A860061C6E8 /* Optional+Mimik.swift in Sources */ = {isa = PBXBuildFile; fileRef = D827ED45210B7A860061C6E8 /* Optional+Mimik.swift */; };
 		F61CDF6D182576BDCE18320BF6B3989D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,25 +30,26 @@
 /* Begin PBXFileReference section */
 		015E25734FC7664DA18D4A52FACB7219 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01607FB3C9A7A958C1239C19F596B9CF /* Pods-Mimik_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Mimik_Tests-umbrella.h"; sourceTree = "<group>"; };
-		25886BFF169B1F6421602020B50970AB /* Pods_Mimik_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Mimik_Tests.framework; path = "Pods-Mimik_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25886BFF169B1F6421602020B50970AB /* Pods_Mimik_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mimik_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D1F75FFE0463573451597ED275CF65E /* Mimik.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Mimik.xcconfig; sourceTree = "<group>"; };
 		374B1F281E6E65264E5EAAE81184D72E /* Mimik-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mimik-umbrella.h"; sourceTree = "<group>"; };
 		4570BDA15C436E93D54C0435F14C9A16 /* Mimik-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mimik-prefix.pch"; sourceTree = "<group>"; };
-		5498B344AB366BA70F799859FDD09D1F /* Mimik.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Mimik.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5498B344AB366BA70F799859FDD09D1F /* Mimik.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = Mimik.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		62B7D2DC2557C80CF4304E21AF714465 /* Comparable+Mimik.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Comparable+Mimik.swift"; path = "Mimik/Classes/Comparable+Mimik.swift"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		740F454C7A808E3729CD760084285E16 /* Mimik.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Mimik.framework; path = Mimik.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		740F454C7A808E3729CD760084285E16 /* Mimik.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Mimik.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		918CDEC7371A5CD79B88811F1189B7F7 /* Pods-Mimik_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mimik_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		92D9DD2B4F9051D0F849131100BDC71C /* Pods-Mimik_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Mimik_Tests.modulemap"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94D76E30CD68A55CCF295BFA62BEE9A8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DE7B828693DF652FB63F175A3043BAD /* Pods-Mimik_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Mimik_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B20A0A0314D06B9C5E328C899CB39563 /* Mimik-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Mimik-dummy.m"; sourceTree = "<group>"; };
 		B2A52397984C1CBFA963D9CCCD27646F /* Pods-Mimik_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Mimik_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		B5DE92335BF50FB533C2654B0345E768 /* Pods-Mimik_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Mimik_Tests-dummy.m"; sourceTree = "<group>"; };
 		B8949EE2B1B3FDDDB8C649C02B47982E /* Pods-Mimik_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mimik_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C3D033EDD353F3D391B803A09356C52A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		D0515A05CB7D4B2C3C39C93F3A1A4DED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C3D033EDD353F3D391B803A09356C52A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D0515A05CB7D4B2C3C39C93F3A1A4DED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D827ED45210B7A860061C6E8 /* Optional+Mimik.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Optional+Mimik.swift"; path = "Mimik/Classes/Optional+Mimik.swift"; sourceTree = "<group>"; };
 		EE9CE81453D1F9D47B7EABA9E22191C3 /* Mimik.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Mimik.modulemap; sourceTree = "<group>"; };
 		F5B2DFA459B467BAE5E7A13DA13A32BC /* Pods-Mimik_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Mimik_Tests-resources.sh"; sourceTree = "<group>"; };
 		F94908252B05FF0F9D2F2850A88835FD /* Pods-Mimik_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Mimik_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				62B7D2DC2557C80CF4304E21AF714465 /* Comparable+Mimik.swift */,
+				D827ED45210B7A860061C6E8 /* Optional+Mimik.swift */,
 				60EDB6F8241A352346E4EE1D80994139 /* Pod */,
 				B0C863BBFD74CE74AA1D9DEE9901F143 /* Support Files */,
 			);
@@ -276,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EEEEA9620EDC8C3C2F0CA6EDA5B0853 /* Comparable+Mimik.swift in Sources */,
+				D827ED46210B7A860061C6E8 /* Optional+Mimik.swift in Sources */,
 				D02D8C6365A595E768F85C0D38E86D0F /* Mimik-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3F46470390309142BCF27C5B /* Pods_Mimik_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4352FD3C2E8A8FE150978006 /* Pods_Mimik_Tests.framework */; };
+		D827ED48210B7AA50061C6E8 /* OptionalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D827ED47210B7AA50061C6E8 /* OptionalTests.swift */; };
 		D8BBF9A4210A1BF400AB02F9 /* ComparableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BBF996210A1BAA00AB02F9 /* ComparableTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -21,6 +22,7 @@
 		7D92ACD3FB6C576645757ECC /* Pods-Mimik_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mimik_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mimik_Example/Pods-Mimik_Example.release.xcconfig"; sourceTree = "<group>"; };
 		AAF825D63F88669487AA551E /* Pods-Mimik_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mimik_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mimik_Tests/Pods-Mimik_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CF2FFBBE6485C87052FDC9C6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D827ED47210B7AA50061C6E8 /* OptionalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalTests.swift; sourceTree = "<group>"; };
 		D8BBF996210A1BAA00AB02F9 /* ComparableTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComparableTests.swift; sourceTree = "<group>"; };
 		D8BBF99C210A1BF000AB02F9 /* Mimik_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mimik_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8BBF9A0210A1BF000AB02F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				D8BBF996210A1BAA00AB02F9 /* ComparableTests.swift */,
+				D827ED47210B7AA50061C6E8 /* OptionalTests.swift */,
 				D8BBF9A0210A1BF000AB02F9 /* Info.plist */,
 			);
 			path = Tests;
@@ -210,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8BBF9A4210A1BF400AB02F9 /* ComparableTests.swift in Sources */,
+				D827ED48210B7AA50061C6E8 /* OptionalTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
