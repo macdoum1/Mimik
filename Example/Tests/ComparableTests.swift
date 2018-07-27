@@ -10,12 +10,27 @@ class ComparableTests: XCTestCase {
         XCTAssertEqual(overTen, twenty)
     }
     
-    func testDontTakeIfNotOverTen() {
+    func testDontTakeIfNotOverTwenty() {
         let twenty = 20
-        let overTen = twenty.takeIf {
+        let overTwenty = twenty.takeIf {
             $0 < 20
         }
-        XCTAssertNil(overTen)
+        XCTAssertNil(overTwenty)
     }
     
+    func testTakeUnlessIntUnderTen() {
+        let twenty = 20
+        let underTen = twenty.takeUnless {
+            $0 < 10
+        }
+        XCTAssertEqual(underTen, twenty)
+    }
+    
+    func testDontTakeUnlessNotEqual20() {
+        let twenty = 20
+        let equalTwenty = twenty.takeUnless {
+            $0 == 20
+        }
+        XCTAssertNil(equalTwenty)
+    }
 }

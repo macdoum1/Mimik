@@ -8,7 +8,7 @@ Why not?
 
 ## Features
 * takeIf
-
+* takeUnless
 More to come!
 
 ## Requirements

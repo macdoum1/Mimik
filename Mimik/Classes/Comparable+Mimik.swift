@@ -15,4 +15,10 @@ public extension Comparable {
         }
         return nil
     }
+    
+    func takeUnless<T: Comparable>(_ action: ((T) -> Bool)) -> T? {
+        return takeIf {
+            !action($0)
+        }
+    }
 }
