@@ -6,9 +6,10 @@ Kotlin-like function literals in Swift
 ## Why?
 Why not?
 
-## Features
-* takeIf
-* takeUnless
+## Included functions
+* `takeIf`
+* `takeUnless`
+* `let_mimik` (similar to Kotlin's `.let`)
 More to come!
 
 ## Requirements
