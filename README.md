@@ -27,7 +27,7 @@ pod 'Mimik'
 
 ## Author
 
-mmacdougall, mmacdougall@etsy.com
+Mike MacDougall, aplmik24@icloud.com
 
 ## License
 
